@@ -1,14 +1,14 @@
 Local PowerDNS with ads filter
 ==============================
 
-### Dependensies
+### Dependensies:
 
 * [docker](https://www.docker.com/)
 * [docker-compose](https://docs.docker.com/compose/)
 
-### Spin up
+### Spin up:
 
-#### Clone repo:
+#### Clone repo
 
 ```bash
 sudo mkdir /opt/docker
@@ -41,7 +41,7 @@ GRANT ALL PRIVILEGES ON powerdns.* TO 'powerdns_user'@'%';
 CREATE DATABASE powerdns;
 ```
 
-#### Run your own DNS server with ads filter:
+#### Run your own DNS server with ads filter
 
 ```bash
 docker-compose up -d
@@ -60,9 +60,8 @@ cd /etc/powerdns/bind
 exit
 ```
 
-"getnewlist.sh" in "/opt/docker/pdns/powerdns-server/bind" folder. It will download new ads server lists 
-and generate new sql dump file. 
+It will download new ads servers lists and generate new sql dump file, then import it to the MySQL docker comtainer.
 
-Then import it to the MySQL docker
+### White listing:
 
 White list of domains you can specify on top of "getnewlist.sh".
