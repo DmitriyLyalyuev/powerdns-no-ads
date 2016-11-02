@@ -17,7 +17,7 @@ It is mirror of [original repo](https://git.lyalyuev.info/silver/pdns)
 ```bash
 sudo mkdir /opt/docker
 sudo chown <user> /opt/docker
-git clone git@git.lyalyuev.info:silver/pdns.git /opt/docker/pdns
+git clone https://github.com/DmitriyLyalyuev/powerdns-no-ads /opt/docker/pdns
 cd /opt/docker/pdns
 ```
 
