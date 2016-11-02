@@ -43,6 +43,7 @@ Create user and database:
 CREATE USER 'powerdns_user'@'%' IDENTIFIED BY 'powerdns';
 GRANT ALL PRIVILEGES ON powerdns.* TO 'powerdns_user'@'%';
 CREATE DATABASE powerdns;
+exit
 ```
 
 #### Run your own DNS server with ads filter
