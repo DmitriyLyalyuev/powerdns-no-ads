@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+  pdns:
+    build: .
+    restart: always
+    ports:
+      - 53:53/udp
+    volumes:
+      - /opt/docker/pdns/powerdns-server:/etc/powerdns
+    depends_on:
+      - mysql
+    links:
+      - mysql
+
+  mysql:
+    image: mariadb
+    restart: always
+    ports:
+      - 172.17.0.1:3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=12345
+    volumes:
+      - /opt/docker/mysql/data:/var/lib/mysql
+

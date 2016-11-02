@@ -1,0 +1,24 @@
+# Custom-added entries
+# example.com
+# example.net
+# .\\.example.net # Include all subdomains of example.net
+zone "oxn.gerkon.eu" { type master; notify no; file "./db.null"; };
+zone "b.ex.ua" { type master; notify no; file "./db.null"; };
+zone "devads.skypeassets.net" { type master; notify no; file "./db.null"; };
+zone "devapps.skype.net" { type master; notify no; file "./db.null"; };
+zone "qawww.skypeassets.net" { type master; notify no; file "./db.null"; };
+zone "qaapi.skype.net" { type master; notify no; file "./db.null"; };
+zone "preads.skypeassets.net" { type master; notify no; file "./db.null"; };
+zone "preapps.skype.net" { type master; notify no; file "./db.null"; };
+zone "static.skypeassets.com" { type master; notify no; file "./db.null"; };
+zone "preg.bforex.com" { type master; notify no; file "./db.null"; };
+zone "flex.msn.com" { type master; notify no; file "./db.null"; };
+zone "apps.skype.com" { type master; notify no; file "./db.null"; };
+zone "api.skype.com" { type master; notify no; file "./db.null"; };
+zone "cdn.mbstatic.org" { type master; notify no; file "./db.null"; };
+zone "marathonbet.com" { type master; notify no; file "./db.null"; };
+zone "megogo.net" { type master; notify no; file "./db.null"; };
+zone "adselector.ru" { type master; notify no; file "./db.null"; };
+zone "pluso.ru" { type master; notify no; file "./db.null"; };
+zone "flash.begun.ru" { type master; notify no; file "./db.null"; };
+zone "h.holder.com.ua" { type master; notify no; file "./db.null"; };
