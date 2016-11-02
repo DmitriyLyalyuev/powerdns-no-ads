@@ -1,6 +1,10 @@
 Local PowerDNS with ads filter
 ==============================
 
+### Original repo
+
+It is mirror of [original repo](https://git.lyalyuev.info/silver/pdns)
+
 ### Dependensies:
 
 * [docker](https://www.docker.com/)
